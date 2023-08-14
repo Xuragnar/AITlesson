@@ -91,7 +91,7 @@ public class RubberArray {
         return array.length;
     }
 
-    //TODO
+    //
     public int sumOfValues() { //сумма значений в массиве
         int sum = 0;
         for (int value : array) {
@@ -100,7 +100,7 @@ public class RubberArray {
         return sum;
     }
 
-    //TODO переписать
+    //
     public int min() { // возвращаем мин значение из массива
         if (array.length == 0) return Integer.MIN_VALUE;
 
@@ -113,7 +113,7 @@ public class RubberArray {
         return min;
     }
 
-    //TODO переписать
+    //
     public int max() { // возвращаем максимальное значение из массива
         if (array.length == 0) return Integer.MAX_VALUE;
 
@@ -138,7 +138,7 @@ public class RubberArray {
     }
 
 
-    //TODO
+    //
     public void deleteByIndex(int index) {
         if (cursor >= 1 && index >= 0 && index < cursor) {
 
