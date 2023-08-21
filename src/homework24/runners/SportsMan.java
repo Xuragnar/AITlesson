@@ -2,7 +2,7 @@ package homework24.runners;
 
 public class SportsMan extends Human {
 
-    public Sportsman() {
+    public SportsMan() {
         super();
     }
 
