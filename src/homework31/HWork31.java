@@ -20,4 +20,7 @@ public class HWork31 {
         int result = countPattern(text, pattern);
         System.out.println("Количество вхождений паттерна: " + result);
     }
+
+
+
 }
