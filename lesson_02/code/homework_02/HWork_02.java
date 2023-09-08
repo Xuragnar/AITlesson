@@ -1,3 +1,5 @@
+package homework_02;
+
 public class HWork_02 {
     public static void main(String[] args) {
         method1();
