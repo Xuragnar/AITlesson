@@ -7,10 +7,10 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input number1 :");
         int num1 = scanner.nextInt();
+        System.out.println("Choose operation : 1 + , 2 -, 3 * ,4 / ");
+        int oper = scanner.nextInt();
         System.out.println("Input number2 :");
         int num2 = scanner.nextInt();
-        System.out.println("Choose operation :");
-        int oper = scanner.nextInt();
         int result = 0;
 
         switch (oper) {
