@@ -1,6 +1,6 @@
-package homework24.vehicles;
+/*package homework24.vehicle;
 
-public class Bicycle extends Vehicle{
+public class Bicycle extends homework24.vehicles.Vehicle {
     public Bicycle(String title) {
         super(title);
     }
@@ -11,7 +11,7 @@ public class Bicycle extends Vehicle{
     }
 
     @Override
-    public void setEngine(Engine engine) {
+    public void setEngine(homework24.vehicles.Engine engine) {
         // тоже переопределение родительского метода, чтобы велосипеду не добавлялся двигатель
         System.out.println("I don't have space for an engine");
     }
@@ -24,3 +24,4 @@ public class Bicycle extends Vehicle{
                 '}';
     }
 }
+*/

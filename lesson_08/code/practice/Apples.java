@@ -3,7 +3,7 @@ package practice;
 public class Apples {
     public static void main(String[] args) {
 
-        int apples = 30;//старотовые значения
+        int apples = 30;//стартовые значения
         int counter = 0;// счетчик
         int applesInCycle = apples; //параметр
 

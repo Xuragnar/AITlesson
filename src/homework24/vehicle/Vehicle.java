@@ -1,4 +1,4 @@
-package homework24.vehicles;
+/*package homework24.vehicles;
 
 /*
 Создайте иерархию классов для разных типов транспортных средств: Vehicle (родительский класс), Car, Bicycle и Motorcycle (дочерние классы).
@@ -23,12 +23,12 @@ Engine id:3 starts
 Auto {id=3, title='Sedan x', engine=Engine{id=4, model='Eng-001', power=150}}
 Engine id:4 starts
  */
-
-public class Vehicle {
+/*
+public abstract class Vehicle {
 
     private final int id;
     private String title;
-    private Engine engine;
+    private homework24.vehicles.Engine engine;
 
     private static int counter;
 
@@ -39,7 +39,7 @@ public class Vehicle {
     }
 
     public void setDefaultValues() {
-        this.engine = new Engine();
+        this.engine = new homework24.vehicles.Engine();
     }
 
     public void startEngine() {
@@ -63,13 +63,15 @@ public class Vehicle {
         this.title = title;
     }
 
-    public Engine getEngine() {
+    public homework24.vehicles.Engine getEngine() {
         return engine;
     }
 
-    public void setEngine(Engine engine) {
+    public void setEngine(homework24.vehicles.Engine engine) {
         this.engine = engine;
     }
+
+    public abstract void setEngine(homework24.vehicles.Engine engine);
 
     @Override
     public String toString() {
@@ -80,3 +82,4 @@ public class Vehicle {
                 '}';
     }
 }
+*/
